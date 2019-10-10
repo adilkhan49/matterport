@@ -5,12 +5,12 @@
 ```
 $ docker build -t "maskrcnn:dev" .
 $ docker run -it -p 8888:8888 -p 6006:6006 -v ~/:/host maskrcnn:dev
-$ cd /host/project-dir
+$ cd /host/my-project
 $ jupyter notebook --allow-root
 ```
 
 open localhost:8888
-keep pictures in /project-dir/imgs/kitty.jpg
+keep pictures in /my-project/imgs/
 
 ```
 predict('imgs/kitty.jpg')
