@@ -7,7 +7,6 @@ $ docker build -t "maskrcnn:dev" .
 $ docker run -it -p 8888:8888 -p 6006:6006 -v ~/:/host maskrcnn:dev
 $ cd /host/project-dir
 $ jupyter notebook --allow-root
-
 ```
 
 open localhost:8888
@@ -19,4 +18,4 @@ predict('imgs/kitty.jpg')
 
 Output:
 
-![Image](https://github.com/adilkhan49/matterport/new/image.png)
+![Image](https://github.com/adilkhan49/matterport/blob/master/image.png)
